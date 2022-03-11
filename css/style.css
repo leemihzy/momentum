@@ -42,7 +42,7 @@ input[type="text"] {
   color: #fff;
   border: 0;
   border-bottom: 1px solid #fff;
-  padding: 0.65rem 0.5rem;
+  padding: 0.65rem 0.8rem;
   margin-right: 0.8rem;
 }
 
@@ -51,12 +51,22 @@ input[type="submit"] {
   background: transparent;
   border: 1px solid #fff;
   color: #fff;
+  transition: background 0.2s;
+}
+
+input[type="submit"]:hover {
+  background: #fffe;
+  color: #000a;
 }
 
 input::placeholder {
-  color: #fff;
+  color: #fffb;
   text-align: center;
   font-style: italic;
+}
+
+input:focus::placeholder {
+  color: transparent;
 }
 
 #login-form input[type="text"] {
@@ -81,6 +91,7 @@ h1#greeting {
 #todo-form input[type="text"] {
   width: 30rem;
   font-size: 1.6rem;
+  border: 1px solid #fff5;
 }
 
 #todo-list button {
@@ -89,15 +100,21 @@ h1#greeting {
 }
 
 ul#todo-list {
-  margin-top: 1rem;
+  margin-top: 1.6rem;
+  height: 300px;
 }
 
 ul#todo-list li {
-  margin: 2rem;
+  width: 30rem;
+  margin-left: -1rem;
+  margin-bottom: 0.4rem;
+  padding: 0.65rem 0.65rem;
+  border-bottom: 1px solid #fffc;
 }
+
 ul#todo-list li span {
   font-size: 1.4rem;
-  margin-left: 0.5rem;
+  margin-left: 0.75rem;
 }
 
 #quote {
