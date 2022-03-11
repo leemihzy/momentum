@@ -1,6 +1,6 @@
 # vanila-js-Chrome-App
 
-## demo
+## 완성본
 <a href="https://leemihzy.github.io/momentum">demo</a>
 
 ## 바닐라 JS로 크롬 앱 만들기
