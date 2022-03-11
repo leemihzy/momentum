@@ -24,3 +24,7 @@
 - 2장 Welcome to Javascript
 - 3장 Javascript on the Browser
 - 4장 Login
+- 5장 Clock
+- 6장 Quotes and Background
+- 7장 To Do List
+- 8장 Weather
